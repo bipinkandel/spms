@@ -1,7 +1,7 @@
 import requests # type: ignore
 import json
 from datetime import datetime
-
+$spms
 # Function to fetch weather data from OpenWeatherMap API
 def fetch_weather(api_key):
     url = f"http://api.openweathermap.org/data/2.5/weather?q=Melbourne,au&units=metric&appid={api_key}"
